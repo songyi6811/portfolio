@@ -32,8 +32,15 @@ main{
     display: flex;
 }
 .header .inner .pc_nav .menu li{
-    padding: 20px;
     font-size: 20px;
+}
+.header .inner .pc_nav .menu li a{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+.header .inner .pc_nav .menu li a:hover{
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .mobile{
     display: none;
@@ -312,9 +319,11 @@ main{
 }
 .project .knotted .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .knotted .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .knotted .left .mockup {
     width: 791px;
@@ -475,9 +484,11 @@ main{
 }
 .project .threece .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .threece .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .threece .left .mockup {
     width: 791px;
@@ -638,9 +649,11 @@ main{
 }
 .project .yoajung .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .yoajung .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .yoajung .left .mockup {
     width: 791px;
@@ -801,9 +814,11 @@ main{
 }
 .project .urlala .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .urlala .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .urlala .left .mockup {
     width: 791px;
@@ -921,6 +936,7 @@ main{
 }
 .project .lejore .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .lejore .left .mockup {
     width: 791px;
@@ -1038,6 +1054,7 @@ main{
 }
 .project .josun .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .josun .left .mockup {
     width: 791px;
@@ -1150,9 +1167,11 @@ main{
 }
 .project .tamber .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .tamber .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .project .tamber .mockup{
     width: 868px;

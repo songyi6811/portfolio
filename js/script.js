@@ -1,5 +1,8 @@
 $(function () {
 
+    //마우스 반짝이 효과
+    
+
     //반응형 메뉴
     let menuBtn = document.querySelector('.menu_btn');
     let mobileNav = document.querySelector('.mobile_nav');
