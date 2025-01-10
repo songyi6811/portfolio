@@ -22,35 +22,12 @@ $(function () {
         };
     });//scroll
 
-    //그래픽디자인 스와이퍼
-    const swiper = new Swiper('.mySwiper', {
-        loop: true,                        
-        slidesPerView: "auto",
-        centeredSlides : true,
-        spaceBetween: 10,               //added
-        autoplay: {                         
-            delay: 2000,  
-        },                   
-        pagination: {                       
-            el: '.swiper-pagination',
-        },
-        breakpoints: {
-            640: {
-                slidesPerView: "auto",
-              spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: "auto",
-              spaceBetween: 20,
-            },
-            1024: {
-                slidesPerView: "auto",
-              spaceBetween: 25,
-            },
-          }
-    });
+
 
     //fancy box
+    Fancybox.bind('[data-fancybox]', {
+        // Your custom options
+      });   
 
     //thank you
     const $text = document.querySelector(".typing .text");
@@ -101,6 +78,8 @@ $(function () {
 
     // 초기 실행
     setTimeout(typing, 1500);
+
+     
 });
 
 

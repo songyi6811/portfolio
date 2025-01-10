@@ -12,7 +12,7 @@ main{
 .header{
     width: 100%;
     height: 100px;
-    z-index: 9999;
+    z-index: 9;
 }
 .header.active{
     position: fixed;
@@ -1254,9 +1254,9 @@ main{
 /* graphic */
 .graphic{
     width: 100%;
-    height: 918px;
     align-items: center;
-    background: url('../img/그래픽디자인배경.jpg') center center no-repeat;
+    background: url('../img/그래픽디자인배경.jpg') center center;
+    padding-bottom: 150px;
 }
 .graphic .title{
     width: 100%;
@@ -1265,37 +1265,23 @@ main{
     /* margin-bottom: 100px; */
     font-size: 50px;
 }
-.graphic .swiper{
-    padding: 100px 0;
-    padding-left: 50px;
+.graphic .inner .fancy-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
 }
-.graphic .swiper .swiper-wrapper {
-    align-items: center;
+.graphic .inner a{
+    display: block;
+    width: 250px;
+    height: 250px;
 }
-.graphic .swiper .swiper-wrapper .swiper-slide.swiper-slide-active{
-    width: 23%;
-}
-.graphic .swiper .swiper-wrapper .swiper-slide.swiper-slide-active::before{
-    display: none;
-}
-.graphic .swiper .swiper-wrapper .swiper-slide{
-    text-align: center;
-    width: 20%;
-    position: relative;
-}
-.graphic .swiper .swiper-wrapper .swiper-slide img{
-   width: 100%;
-}
-.graphic .swiper-slide::before{
-    content: '';
+.graphic .inner a img{
     width: 100%;
     height: 100%;
-    background-color: #00000083;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
+    object-fit: cover;
 }
+
 /* contact */
 .contact .inner{
     margin-top: 100px;
@@ -1398,4 +1384,16 @@ main{
 }
 .contact .in_box .down button:nth-of-type(2):hover{
     background-color: #cfada8;
+}
+.contact .copyright{
+    width: 100%;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+.contact .copyright .text{
+    font-size: 12px;
+    margin: 20px 0;
+}
+.contact .copyright .text p:nth-of-type(1){
+    margin-bottom: 10px;
 }
