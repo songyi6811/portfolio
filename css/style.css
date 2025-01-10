@@ -310,6 +310,12 @@ main{
     border-radius: 20px;
     background-color: #F3CCC5;
 }
+.project .knotted .right .btn button:nth-of-type(1):hover{
+    background-color: #cfada8a1;
+}
+.project .knotted .right .btn button:nth-of-type(2):hover{
+    background-color: #cfada8;
+}
 .project .knotted .left .mockup {
     width: 791px;
     height: 690px;
@@ -466,6 +472,12 @@ main{
     border: none;
     border-radius: 20px;
     background-color: #F3CCC5;
+}
+.project .threece .right .btn button:nth-of-type(1):hover{
+    background-color: #cfada8a1;
+}
+.project .threece .right .btn button:nth-of-type(2):hover{
+    background-color: #cfada8;
 }
 .project .threece .left .mockup {
     width: 791px;
@@ -624,6 +636,12 @@ main{
     border-radius: 20px;
     background-color: #F3CCC5;
 }
+.project .yoajung .right .btn button:nth-of-type(1):hover{
+    background-color: #cfada8a1;
+}
+.project .yoajung .right .btn button:nth-of-type(2):hover{
+    background-color: #cfada8;
+}
 .project .yoajung .left .mockup {
     width: 791px;
     height: 690px;
@@ -781,6 +799,12 @@ main{
     border-radius: 20px;
     background-color: #F3CCC5;
 }
+.project .urlala .right .btn button:nth-of-type(1):hover{
+    background-color: #cfada8a1;
+}
+.project .urlala .right .btn button:nth-of-type(2):hover{
+    background-color: #cfada8;
+}
 .project .urlala .left .mockup {
     width: 791px;
     height: 690px;
@@ -894,6 +918,9 @@ main{
     border: none;
     border-radius: 20px;
     background-color: #F3CCC5;
+}
+.project .lejore .right .btn button:nth-of-type(1):hover{
+    background-color: #cfada8a1;
 }
 .project .lejore .left .mockup {
     width: 791px;
@@ -1009,6 +1036,9 @@ main{
     border-radius: 20px;
     background-color: #F3CCC5;
 }
+.project .josun .right .btn button:nth-of-type(1):hover{
+    background-color: #cfada8a1;
+}
 .project .josun .left .mockup {
     width: 791px;
     height: 690px;
@@ -1118,6 +1148,12 @@ main{
     border-radius: 20px;
     background-color: #F3CCC5;
 }
+.project .tamber .right .btn button:nth-of-type(1):hover{
+    background-color: #cfada8a1;
+}
+.project .tamber .right .btn button:nth-of-type(2):hover{
+    background-color: #cfada8;
+}
 .project .tamber .mockup{
     width: 868px;
 }
@@ -1200,6 +1236,12 @@ main{
     border: none;
     border-radius: 20px;
     background-color: #F3CCC5;
+}
+.project .shopcider .right .btn button:nth-of-type(1):hover{
+    background-color: #cfada8a1;
+}
+.project .shopcider .right .btn button:nth-of-type(2):hover{
+    background-color: #cfada8;
 }
 .project .shopcider .mockup{
     width: 868px;
@@ -1333,7 +1375,16 @@ main{
     gap: 30px;
     align-items: center;
 }
-.contact .in_box .down button{
+.contact .in_box .down button:nth-of-type(1){
+    width: 174px;
+    height: 49px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 3px solid #F3CCC5;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contact .in_box .down button:nth-of-type(2){
     width: 174px;
     height: 49px;
     background-color: #F3CCC5;
@@ -1341,4 +1392,10 @@ main{
     border: none;
     font-size: 14px;
     font-weight: bold;
+}
+.contact .in_box .down button:nth-of-type(1):hover{
+    background-color: #cfada8a1;
+}
+.contact .in_box .down button:nth-of-type(2):hover{
+    background-color: #cfada8;
 }

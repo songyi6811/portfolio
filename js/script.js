@@ -48,7 +48,9 @@ $(function () {
               spaceBetween: 25,
             },
           }
-    })
+    });
+
+    //fancy box
 
     //thank you
     const $text = document.querySelector(".typing .text");
