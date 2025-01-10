@@ -1,0 +1,1344 @@
+@charset "utf-8";
+@import url(rest.css);
+@import url(common.css);
+
+main{
+    width: 100%;
+    height: 1000px;
+    background: url('../img/메인비주얼배경.jpg') center center no-repeat;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+}
+.header.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header .inner{
+    max-width: 1440px;
+    width: calc(100% - 40px);
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .inner .pc_nav .menu{
+    display: flex;
+}
+.header .inner .pc_nav .menu li{
+    padding: 20px;
+    font-size: 20px;
+}
+.mobile{
+    display: none;
+}
+@media screen and (max-width:1100px) {
+    .pc{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    .header .inner .menu_btn{
+        height: 40px;
+    }
+    .header .inner .menu_btn img{
+        height: 100%;
+    }
+    .header .inner .mobile_nav{
+        width: 100%;
+        height: 100%;
+        background-color: #f3ccc56c;
+        position: fixed;
+        top: 100px;
+        left: 100%;
+        padding: 50px;
+        transition: 0.5s;
+    }
+    .header .inner .mobile_nav.active{
+        left: 0;
+    }
+    .header .inner .mobile_menu li{
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+}/* media 1220px header */
+
+
+/* main_visual */
+.main_visual{
+    width: 100%;
+}
+.main_visual .text_wrap{
+    padding-top: 300px;
+}
+.main_visual .text_wrap .title p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.main_visual .text_wrap .title h1{
+    font-size: 150px;
+}
+.main_visual .text_wrap .name{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+/* portfolio 글씨효과 */
+.btn-shine{
+  color: #ffffff;
+  background: linear-gradient(to right, #000 0, white 10%, #000 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 150px;
+  text-decoration: none;
+  white-space: nowrap;
+}    
+@keyframes shine {
+    
+  0% {background-position: 0;}
+  60% {background-position: 380px;}
+    
+  100% {background-position: 680px;}
+}
+
+
+/* about */
+.about{
+    width: 100%;
+    background: url('../img/프로필배경.jpg');
+}
+.about .inner{
+    padding: 150px 0;
+}
+.about .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.about .wrap{
+    display: flex;
+    gap: 80px;
+}
+.about .wrap .left .infor{
+    width: 250px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.about .wrap .left .infor .name{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 15px;
+}
+.about .wrap .left .infor .birth{
+    display: flex;
+    gap: 35px;
+    margin-bottom: 15px;
+}
+.about .wrap .left .infor .Phone{
+    display: flex;
+    gap: 21px;
+    margin-bottom: 15px;
+}
+.about .wrap .left .infor .Email{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+.about .wrap .right{
+    font-size: 20px;
+}
+.about .wrap .right .intro{
+    margin-bottom: 50px;
+}
+.about .wrap .right .intro h3{
+    margin-bottom: 20px;
+}
+.about .wrap .right .Education{
+    margin-bottom: 50px;
+}
+.about .wrap .right .Education h3{
+    margin-bottom: 30px;
+}
+.about .wrap .right .Education .text{
+    display: flex;
+}
+.about .wrap .right .Education .text:nth-of-type(1){
+    display: flex;
+    gap: 147px;
+    margin-bottom: 15px;
+}
+.about .wrap .right .Education .text:nth-of-type(2){
+    display: flex;
+    gap: 141px;
+    margin-bottom: 15px;
+}
+.about .wrap .right .Education .text:nth-of-type(3){
+    display: flex;
+    gap: 50px;
+}
+.about .wrap .right .Certificate{
+    margin-bottom: 50px;
+}
+.about .wrap .right .Certificate h3{
+    margin-bottom: 30px;
+}
+.about .wrap .right .Certificate .text{
+    display: flex;
+}
+.about .wrap .right .Certificate .text:nth-of-type(1){
+    display: flex;
+    gap: 37px;
+    margin-bottom: 15px;
+}
+.about .wrap .right .Certificate .text:nth-of-type(2){
+    display: flex;
+    gap: 33px;
+}
+.about .wrap .right .Skills h3{
+    margin-bottom: 30px;
+}
+
+
+/* project */
+.project{
+    width: 100%;
+}
+.project .title{
+    margin-top: 250px;
+}
+/* knotted */
+.project .knotted{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 300px;
+}
+.project .knotted .left{
+    position: relative;
+}
+.project .knotted .left p{
+    width: 100%;
+    text-align: center;
+}
+.project .knotted .left img:nth-of-type(1){
+    height: 690px;
+}
+.project .knotted .left img:nth-of-type(2){
+    height: 351px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.project .knotted .right{
+    margin-top: 100px;
+}
+.project .knotted .right .sub_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.project .knotted .right .sub_title .text h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.project .knotted .right .sub_title .text p{
+    font-size: 18px;
+}
+.project .knotted .right .sub_title .img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.project .knotted .right .sub_title .img p{
+    font-size: 13px;
+}
+.project .knotted .right .content{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.project .knotted .right .content .text01{
+    font-weight: bold;
+}
+.project .knotted .right .content .lang{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 20px;
+}
+.project .knotted .right .content .program{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 20px;
+}
+.project .knotted .right .content .contribution{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.project .knotted .right .content .page{
+    display: flex;
+    gap: 57px;
+    margin-bottom: 20px;
+}
+.project .knotted .right .btn button:nth-of-type(1){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #F3CCC5;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-right: 30px;
+}
+.project .knotted .right .btn button:nth-of-type(2){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3CCC5;
+}
+.project .knotted .left .mockup {
+    width: 791px;
+    height: 690px;
+    background: url(../img/노티드pc.png) center center / 732px no-repeat;
+    position: relative;
+    z-index: 2;
+}
+.project .knotted .left .mockup .image_box{
+    width: 694px;
+    height: 389px;
+    position: absolute;
+    top: 56px;
+    left: 48px;
+    overflow: hidden;
+    z-index: 1;
+}
+.project .knotted .left .mockup .image_box img{
+    width: 100%;
+    height: 2716px;
+    object-fit: cover;
+}
+.project .knotted .left .mockup .image_box:hover img {
+    animation: pcSlide 5s 1 linear forwards;
+}
+@keyframes pcSlide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% + 431px));
+    }
+}
+.project .knotted .left .mockup .mockup_mobile {
+    width: 167px;
+    height: 341px;
+    background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+}
+.project .knotted .left .mockup .mockup_mobile .image_mobile {
+    width: 148px;
+    height: 320px;
+    position: absolute;
+    top: 11px;
+    left: 9px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.project .knotted .left .mockup .mockup_mobile .image_mobile img{
+    width: 100%;
+    height: 1238px;
+}
+.project .knotted .left .mockup .mockup_mobile .image_mobile:hover img {
+    animation: mobileSlide 3s 1 linear forwards;
+}
+@keyframes mobileSlide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% + 301px));
+    }
+}
+
+/* 3ce */
+.project .threece{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 300px;
+}
+.project .threece .left{
+    position: relative;
+}
+.project .threece .left p{
+    width: 100%;
+    text-align: center;
+}
+.project .threece .left img:nth-of-type(1){
+    height: 690px;
+}
+.project .threece .left img:nth-of-type(2){
+    height: 351px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.project .threece .right{
+    margin-top: 100px;
+}
+.project .threece .right .sub_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.project .threece .right .sub_title .text h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.project .threece .right .sub_title .text p{
+    font-size: 18px;
+}
+.project .threece .right .sub_title .img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.project .threece .right .sub_title .img p{
+    font-size: 13px;
+}
+.project .threece .right .content{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.project .threece .right .content .text01{
+    font-weight: bold;
+}
+.project .threece .right .content .lang{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 20px;
+}
+.project .threece .right .content .program{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 20px;
+}
+.project .threece .right .content .contribution{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.project .threece .right .content .page{
+    display: flex;
+    gap: 57px;
+    margin-bottom: 20px;
+}
+.project .threece .right .btn button:nth-of-type(1){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #F3CCC5;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-right: 30px;
+}
+.project .threece .right .btn button:nth-of-type(2){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3CCC5;
+}
+.project .threece .left .mockup {
+    width: 791px;
+    height: 690px;
+    background: url(../img/노티드pc.png) center center / 732px no-repeat;
+    position: relative;
+    z-index: 2;
+}
+.project .threece .left  .mockup .image_box{
+    width: 694px;
+    height: 389px;
+    position: absolute;
+    top: 56px;
+    left: 48px;
+    overflow: hidden;
+    z-index: 1;
+}
+.project .threece .left  .mockup .image_box img{
+    width: 100%;
+    height: 2079px;
+    object-fit: cover;
+}
+.project .threece .left .mockup .image_box:hover img {
+    animation: pcSlide 5s 1 linear forwards;
+}
+@keyframes pcSlide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% + 431px));
+    }
+}
+.project .threece .left .mockup .mockup_mobile {
+    width: 167px;
+    height: 341px;
+    background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+}
+.project .threece .left .mockup .mockup_mobile .image_mobile {
+    width: 148px;
+    height: 320px;
+    position: absolute;
+    top: 11px;
+    left: 9px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.project .threece .left .mockup .mockup_mobile .image_mobile img{
+    width: 100%;
+    height: 1498px;
+}
+.project .threece .left .mockup .mockup_mobile .image_mobile:hover img {
+    animation: mobileSlide 3s 1 linear forwards;
+}
+@keyframes mobileSlide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% + 301px));
+    }
+}
+
+/* yoajung */
+.project .yoajung{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 300px;
+}
+.project .yoajung .left{
+    position: relative;
+}
+.project .yoajung .left p{
+    width: 100%;
+    text-align: center;
+}
+.project .yoajung .left img:nth-of-type(1){
+    height: 690px;
+}
+.project .yoajung .left img:nth-of-type(2){
+    height: 351px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.project .yoajung .right{
+    margin-top: 100px;
+}
+.project .yoajung .right .sub_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.project .yoajung .right .sub_title .text h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.project .yoajung .right .sub_title .text p{
+    font-size: 18px;
+}
+.project .yoajung .right .sub_title .img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.project .yoajung .right .sub_title .img p{
+    font-size: 13px;
+}
+.project .yoajung .right .content{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.project .yoajung .right .content .text01{
+    font-weight: bold;
+}
+.project .yoajung .right .content .lang{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 20px;
+}
+.project .yoajung .right .content .program{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 20px;
+}
+.project .yoajung .right .content .contribution{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.project .yoajung .right .content .page{
+    display: flex;
+    gap: 57px;
+    margin-bottom: 20px;
+}
+.project .yoajung .right .btn button:nth-of-type(1){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #F3CCC5;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-right: 30px;
+}
+.project .yoajung .right .btn button:nth-of-type(2){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3CCC5;
+}
+.project .yoajung .left .mockup {
+    width: 791px;
+    height: 690px;
+    background: url(../img/노티드pc.png) center center / 732px no-repeat;
+    position: relative;
+    z-index: 2;
+}
+.project .yoajung .left  .mockup .image_box{
+    width: 694px;
+    height: 389px;
+    position: absolute;
+    top: 56px;
+    left: 48px;
+    overflow: hidden;
+    z-index: 1;
+}
+.project .yoajung .left  .mockup .image_box img{
+    width: 100%;
+    height: 2443px;
+    object-fit: cover;
+}
+.project .yoajung .left .mockup .image_box:hover img {
+    animation: pcSlide 5s 1 linear forwards;
+}
+@keyframes pcSlide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% + 431px));
+    }
+}
+.project .yoajung .left .mockup .mockup_mobile {
+    width: 167px;
+    height: 341px;
+    background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+}
+.project .yoajung .left .mockup .mockup_mobile .image_mobile {
+    width: 148px;
+    height: 320px;
+    position: absolute;
+    top: 11px;
+    left: 9px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.project .yoajung .left .mockup .mockup_mobile .image_mobile img{
+    width: 100%;
+    height: 1272px;
+}
+.project .yoajung .left .mockup .mockup_mobile .image_mobile:hover img {
+    animation: mobileSlide 3s 1 linear forwards;
+}
+@keyframes mobileSlide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% + 301px));
+    }
+}
+
+/* urlala */
+.project .urlala{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 300px;
+}
+.project .urlala .left{
+    position: relative;
+}
+.project .urlala .left p{
+    width: 100%;
+    text-align: center;
+}
+.project .urlala .left img:nth-of-type(1){
+    height: 690px;
+}
+.project .urlala .left img:nth-of-type(2){
+    height: 351px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.project .urlala .right{
+    margin-top: 100px;
+}
+.project .urlala .right .sub_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.project .urlala .right .sub_title .text h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.project .urlala .right .sub_title .text p{
+    font-size: 18px;
+}
+.project .urlala .right .sub_title .img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.project .urlala .right .sub_title .img p{
+    font-size: 13px;
+}
+.project .urlala .right .content{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.project .urlala .right .content .text01{
+    font-weight: bold;
+}
+.project .urlala .right .content .lang{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 20px;
+}
+.project .urlala .right .content .program{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 20px;
+}
+.project .urlala .right .content .contribution{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.project .urlala .right .content .page{
+    display: flex;
+    gap: 57px;
+    margin-bottom: 20px;
+}
+.project .urlala .right .btn button:nth-of-type(1){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #F3CCC5;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-right: 30px;
+}
+.project .urlala .right .btn button:nth-of-type(2){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3CCC5;
+}
+.project .urlala .left .mockup {
+    width: 791px;
+    height: 690px;
+    background: url(../img/노티드pc.png) center center / 732px no-repeat;
+    position: relative;
+    z-index: 2;
+}
+.project .urlala .left  .mockup .image_box{
+    width: 694px;
+    height: 389px;
+    position: absolute;
+    top: 56px;
+    left: 48px;
+    overflow: hidden;
+    z-index: 1;
+}
+.project .urlala .left  .mockup .image_box img{
+    width: 100%;
+    height: 2971px;
+    object-fit: cover;
+}
+.project .urlala .left .mockup .image_box:hover img {
+    animation: pcSlide 5s 1 linear forwards;
+}
+@keyframes pcSlide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% + 431px));
+    }
+}
+
+/* lejore */
+.project .lejore{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 300px;
+}
+.project .lejore .left{
+    position: relative;
+}
+.project .lejore .left p{
+    width: 100%;
+    text-align: center;
+}
+.project .lejore .left img:nth-of-type(1){
+    height: 690px;
+}
+.project .lejore .left img:nth-of-type(2){
+    height: 351px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.project .lejore .right{
+    margin-top: 100px;
+}
+.project .lejore .right .sub_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.project .lejore .right .sub_title .text h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.project .lejore .right .sub_title .text p{
+    font-size: 18px;
+}
+.project .lejore .right .sub_title .img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.project .lejore .right .sub_title .img p{
+    font-size: 13px;
+}
+.project .lejore .right .content{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.project .lejore .right .content .text01{
+    font-weight: bold;
+}
+.project .lejore .right .content .lang{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 20px;
+}
+.project .lejore .right .content .program{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 20px;
+}
+.project .lejore .right .content .contribution{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.project .lejore .right .content .page{
+    display: flex;
+    gap: 57px;
+    margin-bottom: 20px;
+}
+.project .lejore .right .btn button:nth-of-type(1){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3CCC5;
+}
+.project .lejore .left .mockup {
+    width: 791px;
+    height: 690px;
+    background: url(../img/노티드pc.png) center center / 732px no-repeat;
+    position: relative;
+    z-index: 2;
+}
+.project .lejore .left  .mockup .image_box{
+    width: 694px;
+    height: 389px;
+    position: absolute;
+    top: 56px;
+    left: 48px;
+    overflow: hidden;
+    z-index: 1;
+}
+.project .lejore .left  .mockup .image_box img{
+    width: 100%;
+    height: 1915px;
+    object-fit: cover;
+}
+.project .lejore .left .mockup .image_box:hover img {
+    animation: pcSlide 5s 1 linear forwards;
+}
+@keyframes pcSlide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% + 431px));
+    }
+}
+
+/* josun */
+.project .josun{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 300px;
+}
+.project .josun .left{
+    position: relative;
+}
+.project .josun .left p{
+    width: 100%;
+    text-align: center;
+}
+.project .josun .left img:nth-of-type(1){
+    height: 690px;
+}
+.project .josun .left img:nth-of-type(2){
+    height: 351px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.project .josun .right{
+    margin-top: 100px;
+}
+.project .josun .right .sub_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.project .josun .right .sub_title .text h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.project .josun .right .sub_title .text p{
+    font-size: 18px;
+}
+.project .josun .right .sub_title .img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.project .josun .right .sub_title .img p{
+    font-size: 13px;
+}
+.project .josun .right .content{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.project .josun .right .content .text01{
+    font-weight: bold;
+}
+.project .josun .right .content .lang{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 20px;
+}
+.project .josun .right .content .program{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 20px;
+}
+.project .josun .right .content .contribution{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.project .josun .right .content .page{
+    display: flex;
+    gap: 57px;
+    margin-bottom: 20px;
+}
+.project .josun .right .btn button:nth-of-type(1){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3CCC5;
+}
+.project .josun .left .mockup {
+    width: 791px;
+    height: 690px;
+    background: url(../img/노티드pc.png) center center / 732px no-repeat;
+    position: relative;
+    z-index: 2;
+}
+.project .josun .left  .mockup .image_box{
+    width: 694px;
+    height: 389px;
+    position: absolute;
+    top: 56px;
+    left: 48px;
+    overflow: hidden;
+    z-index: 1;
+}
+.project .josun .left  .mockup .image_box img{
+    width: 100%;
+    height: 2370px;
+    object-fit: cover;
+}
+.project .josun .left .mockup .image_box:hover img {
+    animation: pcSlide 5s 1 linear forwards;
+}
+@keyframes pcSlide {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% + 431px));
+    }
+}
+
+
+/* tamber */
+.project .tamber{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+.project .tamber .right{
+    margin-top: 100px;
+}
+.project .tamber .right .sub_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.project .tamber .right .sub_title .text h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.project .tamber .right .sub_title .text p{
+    font-size: 18px;
+}
+.project .tamber .right .sub_title .img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.project .tamber .right .sub_title .img p{
+    font-size: 13px;
+}
+.project .tamber .right .content{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.project .tamber .right .content .text01{
+    font-weight: bold;
+}
+.project .tamber .right .content .lang{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 20px;
+}
+.project .tamber .right .content .program{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 20px;
+}
+.project .tamber .right .content .contribution{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.project .tamber .right .content .page{
+    display: flex;
+    gap: 57px;
+    margin-bottom: 20px;
+}
+.project .tamber .right .btn button:nth-of-type(1){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #F3CCC5;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-right: 30px;
+}
+.project .tamber .right .btn button:nth-of-type(2){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3CCC5;
+}
+.project .tamber .mockup{
+    width: 868px;
+}
+.project .tamber .mockup img{
+    width: 100%;
+}
+
+
+/* shopcider */
+.project .shopcider{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.project .shopcider .right{
+    margin-top: 100px;
+}
+.project .shopcider .right .sub_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.project .shopcider .right .sub_title .text h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.project .shopcider .right .sub_title .text p{
+    font-size: 18px;
+}
+.project .shopcider .right .sub_title .img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.project .shopcider .right .sub_title .img p{
+    font-size: 13px;
+}
+.project .shopcider .right .content{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.project .shopcider .right .content .text01{
+    font-weight: bold;
+}
+.project .shopcider .right .content .lang{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 20px;
+}
+.project .shopcider .right .content .program{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 20px;
+}
+.project .shopcider .right .content .contribution{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.project .shopcider .right .content .page{
+    display: flex;
+    gap: 57px;
+    margin-bottom: 20px;
+}
+.project .shopcider .right .btn button:nth-of-type(1){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #F3CCC5;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-right: 30px;
+}
+.project .shopcider .right .btn button:nth-of-type(2){
+    width: 223px;
+    height: 73px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3CCC5;
+}
+.project .shopcider .mockup{
+    width: 868px;
+}
+.project .shopcider .mockup img{
+    width: 100%;
+}
+
+
+/* graphic */
+.graphic{
+    width: 100%;
+    height: 918px;
+    align-items: center;
+    background: url('../img/그래픽디자인배경.jpg') center center no-repeat;
+}
+.graphic .title{
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+    /* margin-bottom: 100px; */
+    font-size: 50px;
+}
+.graphic .swiper{
+    padding: 100px 0;
+    padding-left: 50px;
+}
+.graphic .swiper .swiper-wrapper {
+    align-items: center;
+}
+.graphic .swiper .swiper-wrapper .swiper-slide.swiper-slide-active{
+    width: 23%;
+}
+.graphic .swiper .swiper-wrapper .swiper-slide.swiper-slide-active::before{
+    display: none;
+}
+.graphic .swiper .swiper-wrapper .swiper-slide{
+    text-align: center;
+    width: 20%;
+    position: relative;
+}
+.graphic .swiper .swiper-wrapper .swiper-slide img{
+   width: 100%;
+}
+.graphic .swiper-slide::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #00000083;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* contact */
+.contact .inner{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .thank{
+    line-height: 332px;
+}
+.contact .thank .typing {
+    height: 55px;
+    font-size: 1.8rem;
+    margin-left: 100px;
+}
+
+.contact .thank .text {
+    font-size: 3rem;
+    margin-left: .6rem;
+}
+
+.contact .thank .text::after {
+    content: '';
+    margin-left: .4rem;
+    border-right: 2px solid #777;
+    animation: cursor .9s infinite steps(2);
+}
+
+@keyframes cursor {
+    from {
+        border-right: 2px solid #222;
+    }
+
+    to {
+        border-right: 2px solid #777;
+    }
+}
+.contact .in_box{
+    margin-right: 100px;
+}
+.contact .in_box .title{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.contact .in_box .up{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contact .in_box .up .text{
+    font-size: 20px;
+}
+.contact .in_box .up .text .phone{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.contact .in_box .up .text .email{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.contact .in_box .up .text .git{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.contact .in_box .down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.contact .in_box .down button{
+    width: 174px;
+    height: 49px;
+    background-color: #F3CCC5;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
