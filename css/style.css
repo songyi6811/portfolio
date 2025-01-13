@@ -142,12 +142,18 @@ main{
 .about .wrap .left .infor{
     width: 250px;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 18px;
+}
+.about .wrap .left .infor h3{
+    margin-bottom: 30px;
 }
 .about .wrap .left .infor .name{
     display: flex;
     gap: 25px;
     margin-bottom: 15px;
+}
+.about .wrap .left .infor .text01{
+    color: #777;
 }
 .about .wrap .left .infor .birth{
     display: flex;
@@ -165,10 +171,17 @@ main{
     margin-bottom: 15px;
 }
 .about .wrap .right{
-    font-size: 20px;
+    font-size: 18px;
+}
+.about .wrap .right .text01{
+    color: #777;
 }
 .about .wrap .right .intro{
     margin-bottom: 50px;
+}
+.about .wrap .right .intro p{
+    font-size: 18px;
+    line-height: 28px;
 }
 .about .wrap .right .intro h3{
     margin-bottom: 20px;
@@ -194,6 +207,11 @@ main{
 }
 .about .wrap .right .Education .text:nth-of-type(3){
     display: flex;
+    gap: 141px;
+    margin-bottom: 15px;
+}
+.about .wrap .right .Education .text:nth-of-type(4){
+    display: flex;
     gap: 50px;
 }
 .about .wrap .right .Certificate{
@@ -217,6 +235,11 @@ main{
 .about .wrap .right .Skills h3{
     margin-bottom: 30px;
 }
+.about .wrap .right .Skills img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
 
 
 /* project */
@@ -230,7 +253,7 @@ main{
 .project .knotted{
     display: flex;
     gap: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 .project .knotted .left{
     position: relative;
@@ -341,10 +364,13 @@ main{
     overflow: hidden;
     z-index: 1;
 }
-.project .knotted .left .mockup .image_box img{
+.project .knotted .left .mockup .image_box img:nth-of-type(1){
     width: 100%;
     height: 2716px;
     object-fit: cover;
+}
+.project .knotted .left .mockup .image_box img:nth-of-type(2){
+    display: none;
 }
 .project .knotted .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
@@ -375,9 +401,12 @@ main{
     overflow: hidden;
     border-radius: 20px;
 }
-.project .knotted .left .mockup .mockup_mobile .image_mobile img{
+.project .knotted .left .mockup .mockup_mobile .image_mobile img:nth-of-type(1){
     width: 100%;
     height: 1238px;
+}
+.project .knotted .left .mockup .mockup_mobile .image_mobile img:nth-of-type(2){
+   display: none;
 }
 .project .knotted .left .mockup .mockup_mobile .image_mobile:hover img {
     animation: mobileSlide 3s 1 linear forwards;
@@ -395,7 +424,7 @@ main{
 .project .threece{
     display: flex;
     gap: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 .project .threece .left{
     position: relative;
@@ -560,7 +589,7 @@ main{
 .project .yoajung{
     display: flex;
     gap: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 .project .yoajung .left{
     position: relative;
@@ -725,7 +754,7 @@ main{
 .project .urlala{
     display: flex;
     gap: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 .project .urlala .left{
     position: relative;
@@ -857,7 +886,7 @@ main{
 .project .lejore{
     display: flex;
     gap: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 .project .lejore .left{
     position: relative;
@@ -975,7 +1004,7 @@ main{
 .project .josun{
     display: flex;
     gap: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 .project .josun .left{
     position: relative;
@@ -1094,7 +1123,7 @@ main{
 .project .tamber{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 .project .tamber .right{
     margin-top: 100px;
@@ -1187,25 +1216,31 @@ main{
     width: 100%;
     align-items: center;
     background: url('../img/그래픽디자인배경.jpg') center center;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .graphic .title{
     width: 100%;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
     /* margin-bottom: 100px; */
     font-size: 50px;
 }
+.graphic .inner p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
 .graphic .inner .fancy-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
     row-gap: 30px;
 }
 .graphic .inner a{
     display: block;
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     border-radius: 20px;
 }
 .graphic .inner a img{
@@ -1213,6 +1248,11 @@ main{
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+    transition: 0.5s;
+}
+.graphic .inner a img:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
 }
 
 /* contact */
@@ -1329,4 +1369,789 @@ main{
 }
 .contact .copyright .text p:nth-of-type(1){
     margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:1400px) {
+    /* project */
+    .project .knotted .right .btn button:nth-of-type(1){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .project .knotted .right .btn button:nth-of-type(2){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+    }
+    .project .threece .right .btn button:nth-of-type(1){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .project .threece .right .btn button:nth-of-type(2){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+    }
+    .project .yoajung .right .btn button:nth-of-type(1){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .project .yoajung .right .btn button:nth-of-type(2){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+    }
+    .project .urlala .right .btn button:nth-of-type(1){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .project .urlala .right .btn button:nth-of-type(2){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+    }
+    .project .lejore .right .btn button:nth-of-type(1){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .project .lejore .right .btn button:nth-of-type(2){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+    }
+    .project .josun .right .btn button:nth-of-type(1){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .project .josun .right .btn button:nth-of-type(2){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+    }
+    .project .tamber .right .btn button:nth-of-type(1){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    .project .tamber .right .btn button:nth-of-type(2){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1100px){
+    main{
+        width: 100%;
+        height: 1300px;
+        background: url('../img/메인비주얼배경-tablet.jpg');
+    }
+    .btn-shine{
+        font-size: 120px;
+    }
+    .about .wrap{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .about .inner{
+        /* margin-left: 20px; */
+        padding: 100px 0;
+    }
+    .about .wrap .left{
+        display: flex;
+        gap: 50px;
+    }
+    .about .wrap .left .infor{
+        margin-top: 130px;
+    }
+    .about .wrap .left img{
+        width: 350px;
+        height: 350px;
+    }
+    /* project */
+    .project .title{
+        margin-top: 150px;
+    }
+    /* knotted */
+    .project .knotted{
+        gap: 50px;
+        margin-bottom: 200px;
+    }
+    .project .knotted .left p{
+        font-size: 12px;
+    }
+    .project .knotted .left .mockup{
+        width: 436px;
+        height: 381px;
+        background: url(../img/노티드pc.png) center center / 436px no-repeat;
+    }
+    .project .knotted .left .mockup .image_box{
+        width: 412px;
+        height: 230px;
+        position: absolute;
+        top: 19px;
+        left: 12px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .project .knotted .left .mockup .image_box img:nth-of-type(1){
+        display: none;
+    }
+    .project .knotted .left .mockup .image_box img:nth-of-type(2){
+        display: block;
+        width: 100%;
+        height: 1529px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+    }
+    .project .knotted .left .mockup .mockup_mobile {
+        width: 93px;
+        height: 190px;
+        background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    }
+    .project .knotted .left .mockup .mockup_mobile .image_mobile{
+        width: 83px;
+        height: 180px;
+        position: absolute;
+        top: 4px;
+        left: 5px;
+        border-radius: 10px;
+    }
+    .project .knotted .left .mockup .mockup_mobile .image_mobile img:nth-of-type(1){
+        display: none;
+    }
+    .project .knotted .left .mockup .mockup_mobile .image_mobile img:nth-of-type(2){
+        display: block;
+        width: 100%;
+        height: 694px;
+        position: absolute;
+        top: 0;
+    }
+    .project .knotted .right{
+        margin-top: 10px;
+    }
+    .project .knotted .right .sub_title{
+        margin-bottom: 40px;
+        gap: 30px;
+    }
+    .project .knotted .right .sub_title .text h3{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .project .knotted .right .sub_title .text p{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .project .knotted .right .sub_title .img{
+        height: 62px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .project .knotted .right .sub_title .img img{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+    .project .knotted .right .sub_title .img p{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .project .knotted .right .content{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .project .knotted .right .btn button:nth-of-type(1){
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        margin-right: 15px;
+        border-radius: 15px;
+    }
+    .project .knotted .right .btn button:nth-of-type(2){
+        width: 160px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+    /* threece */
+    .project .threece{
+        gap: 50px;
+        margin-bottom: 200px;
+    }
+    .project .threece .left p{
+        font-size: 12px;
+    }
+    .project .threece .left .mockup{
+        width: 436px;
+        height: 381px;
+        background: url(../img/노티드pc.png) center center / 436px no-repeat;
+    }
+    .project .threece .left .mockup .image_box{
+        width: 412px;
+        height: 230px;
+        position: absolute;
+        top: 19px;
+        left: 12px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .project .threece .left .mockup .image_box img:nth-of-type(1){
+        display: none;
+    }
+    .project .threece .left .mockup .image_box img:nth-of-type(2){
+        display: block;
+        width: 100%;
+        height: 1234px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+    }
+    .project .threece .left .mockup .mockup_mobile {
+        width: 93px;
+        height: 190px;
+        background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    }
+    .project .threece .left .mockup .mockup_mobile .image_mobile{
+        width: 83px;
+        height: 180px;
+        position: absolute;
+        top: 4px;
+        left: 5px;
+        border-radius: 10px;
+    }
+    .project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(1){
+        display: none;
+    }
+    .project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(2){
+        display: block;
+        width: 100%;
+        height: 840px;
+        position: absolute;
+        top: 0;
+    }
+    .project .threece .right{
+        margin-top: 10px;
+    }
+    .project .threece .right .sub_title{
+        margin-bottom: 40px;
+        gap: 30px;
+    }
+    .project .threece .right .sub_title .text h3{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .project .threece .right .sub_title .text p{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .project .threece .right .sub_title .img{
+        height: 62px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .project .threece .right .sub_title .img img{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+    .project .threece .right .sub_title .img p{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .project .threece .right .content{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .project .threece .right .btn button:nth-of-type(1){
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        margin-right: 15px;
+        border-radius: 15px;
+    }
+    .project .threece .right .btn button:nth-of-type(2){
+        width: 160px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+    /* yoajung */
+    .project .yoajung{
+        gap: 50px;
+        margin-bottom: 200px;
+    }
+    .project .yoajung .left p{
+        font-size: 12px;
+    }
+    .project .yoajung .left .mockup{
+        width: 436px;
+        height: 381px;
+        background: url(../img/노티드pc.png) center center / 436px no-repeat;
+    }
+    .project .yoajung .left .mockup .image_box{
+        width: 412px;
+        height: 230px;
+        position: absolute;
+        top: 19px;
+        left: 12px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .project .yoajung .left .mockup .image_box img:nth-of-type(1){
+        display: none;
+    }
+    .project .yoajung .left .mockup .image_box img:nth-of-type(2){
+        display: block;
+        width: 100%;
+        height: 1450px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+    }
+    .project .yoajung .left .mockup .mockup_mobile {
+        width: 93px;
+        height: 190px;
+        background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    }
+    .project .yoajung .left .mockup .mockup_mobile .image_mobile{
+        width: 83px;
+        height: 180px;
+        position: absolute;
+        top: 4px;
+        left: 5px;
+        border-radius: 10px;
+    }
+    .project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(1){
+        display: none;
+    }
+    .project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(2){
+        display: block;
+        width: 100%;
+        height: 713px;
+        position: absolute;
+        top: 0;
+    }
+    .project .yoajung .right{
+        margin-top: 10px;
+    }
+    .project .yoajung .right .sub_title{
+        margin-bottom: 40px;
+        gap: 30px;
+    }
+    .project .yoajung .right .sub_title .text h3{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .project .yoajung .right .sub_title .text p{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .project .yoajung .right .sub_title .img{
+        height: 62px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .project .yoajung .right .sub_title .img img{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+    .project .yoajung .right .sub_title .img p{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .project .yoajung .right .content{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .project .yoajung .right .btn button:nth-of-type(1){
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        margin-right: 15px;
+        border-radius: 15px;
+    }
+    .project .yoajung .right .btn button:nth-of-type(2){
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    /* urlala */
+    .project .urlala{
+        gap: 50px;
+        margin-bottom: 200px;
+    }
+    .project .urlala .left p{
+        font-size: 12px;
+    }
+    .project .urlala .left .mockup{
+        width: 436px;
+        height: 381px;
+        background: url(../img/노티드pc.png) center center / 436px no-repeat;
+    }
+    .project .urlala .left .mockup .image_box{
+        width: 412px;
+        height: 230px;
+        position: absolute;
+        top: 19px;
+        left: 12px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .project .urlala .left .mockup .image_box img:nth-of-type(1){
+        display: none;
+    }
+    .project .urlala .left .mockup .image_box img:nth-of-type(2){
+        display: block;
+        width: 100%;
+        height: 1764px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+    }
+    .project .urlala .right{
+        margin-top: 10px;
+    }
+    .project .urlala .right .sub_title{
+        margin-bottom: 40px;
+        gap: 30px;
+    }
+    .project .urlala .right .sub_title .text h3{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .project .urlala .right .sub_title .text p{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .project .urlala .right .sub_title .img{
+        height: 62px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .project .urlala .right .sub_title .img img{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+    .project .urlala .right .sub_title .img p{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .project .urlala .right .content{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .project .urlala .right .btn button:nth-of-type(1){
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        margin-right: 15px;
+        border-radius: 15px;
+    }
+    .project .urlala .right .btn button:nth-of-type(2){
+        width: 160px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+    /* lejore */
+    .project .lejore {
+        margin-bottom: 200px;
+    }
+    .project .lejore .left p{
+        font-size: 12px;
+    }
+    .project .lejore{
+        gap: 50px;
+    }
+    .project .lejore .left .mockup{
+        width: 436px;
+        height: 381px;
+        background: url(../img/노티드pc.png) center center / 436px no-repeat;
+    }
+    .project .lejore .left .mockup .image_box{
+        width: 412px;
+        height: 230px;
+        position: absolute;
+        top: 19px;
+        left: 12px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .project .lejore .left .mockup .image_box img:nth-of-type(1){
+        display: none;
+    }
+    .project .lejore .left .mockup .image_box img:nth-of-type(2){
+        display: block;
+        width: 100%;
+        height: 1137px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+    }
+    .project .lejore .right{
+        margin-top: 10px;
+    }
+    .project .lejore .right .sub_title{
+        margin-bottom: 40px;
+        gap: 30px;
+    }
+    .project .lejore .right .sub_title .text h3{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .project .lejore .right .sub_title .text p{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .project .lejore .right .sub_title .img{
+        height: 62px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .project .lejore .right .sub_title .img img{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+    .project .lejore .right .sub_title .img p{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .project .lejore .right .content{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .project .lejore .right .btn button:nth-of-type(1){
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        margin-right: 15px;
+        border-radius: 15px;
+    }
+    .project .lejore .right .btn button:nth-of-type(2){
+        width: 160px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+    /* josun */
+    .project .josun{
+        gap: 50px;
+        margin-bottom: 200px;
+    }
+    .project .josun .left p{
+        font-size: 12px;
+    }
+    .project .josun .left .mockup{
+        width: 436px;
+        height: 381px;
+        background: url(../img/노티드pc.png) center center / 436px no-repeat;
+    }
+    .project .josun .left .mockup .image_box{
+        width: 412px;
+        height: 230px;
+        position: absolute;
+        top: 19px;
+        left: 12px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .project .josun .left .mockup .image_box img:nth-of-type(1){
+        display: none;
+    }
+    .project .josun .left .mockup .image_box img:nth-of-type(2){
+        display: block;
+        width: 100%;
+        height: 1137px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+    }
+    .project .josun .right{
+        margin-top: 10px;
+    }
+    .project .josun .right .sub_title{
+        margin-bottom: 40px;
+        gap: 30px;
+    }
+    .project .josun .right .sub_title .text h3{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .project .josun .right .sub_title .text p{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .project .josun .right .sub_title .img{
+        height: 62px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .project .josun .right .sub_title .img img{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+    .project .josun .right .sub_title .img p{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .project .josun .right .content{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .project .josun .right .btn button:nth-of-type(1){
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        margin-right: 15px;
+        border-radius: 15px;
+    }
+    .project .josun .right .btn button:nth-of-type(2){
+        width: 160px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+    /* tamber */
+    .project .tamber{
+        margin-bottom: 200px;
+    }
+    .project .tamber .right{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .project .tamber .right .sub_title .text h3{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .project .tamber .right .sub_title .text p{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .project .tamber .right .sub_title .img{
+        height: 62px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .project .tamber .right .sub_title .img img{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+    .project .tamber .right .sub_title .img p{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .project .tamber .right .content{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .project .tamber .right .btn{
+        display: flex;
+    }
+    .project .tamber .right .btn button:nth-of-type(1){
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        margin-right: 15px;
+        border-radius: 15px;
+    }
+    .project .tamber .right .btn button:nth-of-type(2){
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    .project .tamber .mockup{
+        width: 550px;
+        margin-top: 80px;
+    }
+    /* graphic */
+    .graphic .title{
+        margin-bottom: 50px;
+    }
+    .graphic .inner a{
+        width: 300px;
+    height: 300px
+    }
+    /* contact */
+    .contact .thank .typing{
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+    .contact .thank .text{
+        font-size: 35px;
+    }
+    .contact .in_box .up .text{
+        font-size: 16px;
+    }
+    .contact .in_box{
+        margin-right: 20px;
+    }
+    .contact .in_box .up{
+        gap: 30px;
+    }
+    .contact .in_box .up .qr img{
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+    }
+    .contact .in_box .up .text .phone img{
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+    }
+    .contact .in_box .up .text .email img{
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+    }
+    .contact .in_box .up .text .git img{
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+    }
+    .contact .in_box .down button:nth-of-type(1){
+        width: 160px;
+        height: 45px;
+        border-radius: 15px;
+        font-size: 12px;
+    }
+    .contact .in_box .down button:nth-of-type(2){
+        width: 160px;
+        height: 45px;
+        border-radius: 15px;
+        font-size: 12px;
+    }
 }

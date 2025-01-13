@@ -25,8 +25,6 @@ $(function () {
         };
     });//scroll
 
-
-
     //fancy box
     Fancybox.bind('[data-fancybox]', {
         // Your custom options
