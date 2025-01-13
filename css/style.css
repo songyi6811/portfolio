@@ -39,25 +39,24 @@ main{
     width: 100%;
     height: 100%;
 }
-.header .inner .pc_nav .menu li a:hover{
  .header .inner .pc_nav .menu li a:hover{
     cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
-} 
+
 .mobile{
     display: none;
 }
-/* .header .inner .menu_btn img:hover{
+.header .inner .menu_btn img:hover{
     cursor: url('../img/마우스커서02.png') 2 2, auto;
-} */
+}
 .header .inner .mobile .mobile_menu li a{
     width: 100%;
     height: 100%;
     display: block;
 }
-/* .header .inner .mobile .mobile_menu li a:hover{
+.header .inner .mobile .mobile_menu li a:hover{
     cursor: url('../img/마우스커서02.png') 2 2, auto;
-} */
+}
 @media screen and (max-width:1100px) {
     .pc{
         display: none;
@@ -1379,9 +1378,11 @@ main{
 }
 .contact .in_box .down button:nth-of-type(1):hover{
     background-color: #cfada8a1;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .contact .in_box .down button:nth-of-type(2):hover{
     background-color: #cfada8;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .contact .copyright{
     width: 100%;
