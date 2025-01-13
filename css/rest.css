@@ -29,3 +29,6 @@ a.btn{
     right: 30px;
     bottom: 30px;
 }
+a.btn:hover{
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
+}
