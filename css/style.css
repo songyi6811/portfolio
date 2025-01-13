@@ -2950,4 +2950,8 @@ main{
         font-size: 30px;
     }
 
-}/* media 800px */
+}/* media 920px */
+
+@media screen and (max-width:414px){
+
+}/* media 414px */
