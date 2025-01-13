@@ -4,9 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-*:hover{
-    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
+    cursor: url('../img/마우스커서.png') 1 1, auto;
 }
 li{
     list-style: none;
@@ -18,7 +16,7 @@ a{
 body{
     color: #333;
     overflow-x: hidden;
-    cursor: url('../img/마우스커서.png') 1 1, auto;
+    
 }
 a.btn{
     width: 50px;
