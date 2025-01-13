@@ -523,6 +523,7 @@ main{
     border-radius: 20px;
     background-color: transparent;
     margin-right: 30px;
+    color: #333;
 }
 .project .threece .right .btn button:nth-of-type(2){
     width: 223px;
