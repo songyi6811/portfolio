@@ -39,12 +39,23 @@ main{
     width: 100%;
     height: 100%;
 }
-.header .inner .pc_nav .menu li a:hover{
+/* .header .inner .pc_nav .menu li a:hover{
     cursor: url('../img/마우스커서02.png') 2 2, auto;
-}
+} */
 .mobile{
     display: none;
 }
+/* .header .inner .menu_btn img:hover{
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
+} */
+.header .inner .mobile .mobile_menu li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* .header .inner .mobile .mobile_menu li a:hover{
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
+} */
 @media screen and (max-width:1100px) {
     .pc{
         display: none;
@@ -342,11 +353,11 @@ main{
 }
 .project .knotted .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .knotted .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .knotted .left .mockup {
     width: 791px;
@@ -513,11 +524,11 @@ main{
 }
 .project .threece .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .threece .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .threece .left .mockup {
     width: 791px;
@@ -678,11 +689,11 @@ main{
 }
 .project .yoajung .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .yoajung .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .yoajung .left .mockup {
     width: 791px;
@@ -843,11 +854,11 @@ main{
 }
 .project .urlala .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .urlala .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .urlala .left .mockup {
     width: 791px;
@@ -965,7 +976,7 @@ main{
 }
 .project .lejore .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .lejore .left .mockup {
     width: 791px;
@@ -1083,7 +1094,7 @@ main{
 }
 .project .josun .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .josun .left .mockup {
     width: 791px;
@@ -1196,11 +1207,11 @@ main{
 }
 .project .tamber .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .tamber .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
-    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
 .project .tamber .mockup{
     width: 868px;
@@ -1545,7 +1556,7 @@ main{
     }
     .project .knotted .right .sub_title{
         margin-bottom: 40px;
-        gap: 30px;
+        gap: 0px;
     }
     .project .knotted .right .sub_title .text h3{
         font-size: 50px;
