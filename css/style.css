@@ -2325,7 +2325,7 @@ main{
         height: 900px;
     }
     .main_visual .text_wrap .title h1{
-        font-size: 80px;
+        font-size: 60px;
     }
     .main_visual .text_wrap .name{
         font-size: 20px;
@@ -2335,7 +2335,7 @@ main{
         font-size: 18px;
     }
     .btn-shine{
-        font-size: 80px;
+        font-size: 60px;
     }
     .inner>h2{
         font-size: 40px;
@@ -2412,7 +2412,7 @@ main{
         content: '';
         width: 50px;
         height: 60px;
-        background: url('../img/qr\ \(2\).png') center center no-repeat;
+        background: url('../img/노티드qr\ \(2\).png') center center no-repeat;
         display: block;
         position: absolute;
         bottom: 0;
@@ -2515,7 +2515,7 @@ main{
         content: '';
         width: 50px;
         height: 60px;
-        background: url('../img/qr\ \(2\).png') center center no-repeat;
+        background: url('../img/3ceqr.png') center center no-repeat;
         display: block;
         position: absolute;
         bottom: 0;
@@ -2614,16 +2614,17 @@ main{
         margin: 0 auto;
         position: relative;
     }
-    .project .yoajung .left .mockup::before{
+    /* !!!!!!!!!!!나중에 요아정 반응형 코딩 후 qr이미지 첨부하기!!!!!!!!!!!!!!!!!!! */
+    /* .project .yoajung .left .mockup::before{
         content: '';
         width: 50px;
         height: 60px;
-        background: url('../img/qr\ \(2\).png') center center no-repeat;
+        background: url('../img/3ceqr.png') center center no-repeat;
         display: block;
         position: absolute;
         bottom: 0;
         z-index: 3;
-    }
+    } */
     .project .yoajung .left .mockup .image_box{
         width: 572px;
         height: 318px;
