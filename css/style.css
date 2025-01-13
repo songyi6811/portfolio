@@ -398,7 +398,7 @@ main{
         transform: translateY(0);
     }
     100% {
-        transform: translateY(calc(-100% + 431px));
+        transform: translateY(calc(100% + 319px));
     }
 }
 .project .knotted .left .mockup .mockup_mobile {
@@ -523,7 +523,6 @@ main{
     border-radius: 20px;
     background-color: transparent;
     margin-right: 30px;
-    color: #333;
 }
 .project .threece .right .btn button:nth-of-type(2){
     width: 223px;
@@ -551,7 +550,7 @@ main{
     position: relative;
     z-index: 2;
 }
-.project .threece .left  .mockup .image_box{
+.project .threece .left .mockup .image_box{
     width: 694px;
     height: 389px;
     position: absolute;
@@ -560,10 +559,16 @@ main{
     overflow: hidden;
     z-index: 1;
 }
-.project .threece .left  .mockup .image_box img{
+.project .threece .left .mockup .image_box img:nth-of-type(1){
     width: 100%;
     height: 2079px;
     object-fit: cover;
+}
+.project .threece .left .mockup .image_box img:nth-of-type(2){
+    display: none;
+}
+.project .threece .left .mockup .image_box img:nth-of-type(3){
+    display: none;
 }
 .project .threece .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
@@ -594,9 +599,15 @@ main{
     overflow: hidden;
     border-radius: 20px;
 }
-.project .threece .left .mockup .mockup_mobile .image_mobile img{
+.project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(1){
     width: 100%;
-    height: 1498px;
+    height: 1498px;;
+}
+.project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(2){
+   display: none;
+}
+.project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
+   display: none;
 }
 .project .threece .left .mockup .mockup_mobile .image_mobile:hover img {
     animation: mobileSlide 3s 1 linear forwards;
@@ -728,10 +739,16 @@ main{
     overflow: hidden;
     z-index: 1;
 }
-.project .yoajung .left  .mockup .image_box img{
+.project .yoajung .left .mockup .image_box img:nth-of-type(1){
     width: 100%;
     height: 2443px;
-    object-fit: cover;
+    object-fit: cover;;
+}
+.project .yoajung .left .mockup .image_box img:nth-of-type(2){
+    display: none;
+}
+.project .yoajung .left .mockup .image_box img:nth-of-type(3){
+    display: none;
 }
 .project .yoajung .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
@@ -762,9 +779,15 @@ main{
     overflow: hidden;
     border-radius: 20px;
 }
-.project .yoajung .left .mockup .mockup_mobile .image_mobile img{
+.project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(1){
     width: 100%;
     height: 1272px;
+}
+.project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(2){
+   display: none;
+}
+.project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
+   display: none;
 }
 .project .yoajung .left .mockup .mockup_mobile .image_mobile:hover img {
     animation: mobileSlide 3s 1 linear forwards;
@@ -896,10 +919,16 @@ main{
     overflow: hidden;
     z-index: 1;
 }
-.project .urlala .left  .mockup .image_box img{
+.project .urlala .left .mockup .image_box img:nth-of-type(1){
     width: 100%;
     height: 2971px;
     object-fit: cover;
+}
+.project .urlala .left .mockup .image_box img:nth-of-type(2){
+    display: none;
+}
+.project .urlala .left .mockup .image_box img:nth-of-type(3){
+    display: none;
 }
 .project .urlala .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
@@ -1016,10 +1045,16 @@ main{
     overflow: hidden;
     z-index: 1;
 }
-.project .lejore .left  .mockup .image_box img{
+.project .lejore .left .mockup .image_box img:nth-of-type(1){
     width: 100%;
     height: 1915px;
     object-fit: cover;
+}
+.project .lejore .left .mockup .image_box img:nth-of-type(2){
+    display: none;
+}
+.project .lejore .left .mockup .image_box img:nth-of-type(3){
+    display: none;
 }
 .project .lejore .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
@@ -1136,10 +1171,16 @@ main{
     overflow: hidden;
     z-index: 1;
 }
-.project .josun .left  .mockup .image_box img{
+.project .josun .left .mockup .image_box img:nth-of-type(1){
     width: 100%;
     height: 2370px;
     object-fit: cover;
+}
+.project .josun .left .mockup .image_box img:nth-of-type(2){
+    display: none;
+}
+.project .josun .left .mockup .image_box img:nth-of-type(3){
+    display: none;
 }
 .project .josun .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
