@@ -152,7 +152,7 @@ main{
     gap: 80px;
 }
 .about .wrap .left .infor{
-    width: 250px;
+    width: 300px;
     margin-top: 50px;
     font-size: 18px;
 }
@@ -161,25 +161,26 @@ main{
 }
 .about .wrap .left .infor .name{
     display: flex;
-    gap: 25px;
+    gap: 60px;
     margin-bottom: 15px;
 }
 .about .wrap .left .infor .text01{
     color: #777;
+    width: 60px;
 }
 .about .wrap .left .infor .birth{
     display: flex;
-    gap: 35px;
+    gap: 60px;
     margin-bottom: 15px;
 }
 .about .wrap .left .infor .Phone{
     display: flex;
-    gap: 21px;
+    gap: 60px;
     margin-bottom: 15px;
 }
 .about .wrap .left .infor .Email{
     display: flex;
-    gap: 30px;
+    gap: 60px;
     margin-bottom: 15px;
 }
 .about .wrap .right{
@@ -187,6 +188,7 @@ main{
 }
 .about .wrap .right .text01{
     color: #777;
+    width: 150px;
 }
 .about .wrap .right .intro{
     margin-bottom: 50px;
@@ -209,22 +211,22 @@ main{
 }
 .about .wrap .right .Education .text:nth-of-type(1){
     display: flex;
-    gap: 147px;
+    gap: 60px;
     margin-bottom: 15px;
 }
 .about .wrap .right .Education .text:nth-of-type(2){
     display: flex;
-    gap: 141px;
+    gap:60px;
     margin-bottom: 15px;
 }
 .about .wrap .right .Education .text:nth-of-type(3){
     display: flex;
-    gap: 141px;
+    gap: 60px;
     margin-bottom: 15px;
 }
 .about .wrap .right .Education .text:nth-of-type(4){
     display: flex;
-    gap: 50px;
+    gap: 60px;
 }
 .about .wrap .right .Certificate{
     margin-bottom: 50px;
@@ -237,12 +239,12 @@ main{
 }
 .about .wrap .right .Certificate .text:nth-of-type(1){
     display: flex;
-    gap: 37px;
+    gap: 60px;
     margin-bottom: 15px;
 }
 .about .wrap .right .Certificate .text:nth-of-type(2){
     display: flex;
-    gap: 33px;
+    gap: 60px;
 }
 .about .wrap .right .Skills h3{
     margin-bottom: 30px;
@@ -316,25 +318,26 @@ main{
 }
 .project .knotted .right .content .text01{
     font-weight: bold;
+    width: 100px;
 }
 .project .knotted .right .content .lang{
     display: flex;
-    gap: 120px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .knotted .right .content .program{
     display: flex;
-    gap: 81px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .knotted .right .content .contribution{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .knotted .right .content .page{
     display: flex;
-    gap: 57px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .knotted .right .btn button:nth-of-type(1){
@@ -520,25 +523,26 @@ main{
 }
 .project .threece .right .content .text01{
     font-weight: bold;
+    width: 100px;
 }
 .project .threece .right .content .lang{
     display: flex;
-    gap: 120px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .threece .right .content .program{
     display: flex;
-    gap: 81px;
+    gap:60px;
     margin-bottom: 20px;
 }
 .project .threece .right .content .contribution{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .threece .right .content .page{
     display: flex;
-    gap: 57px;
+    gap:60px;
     margin-bottom: 20px;
 }
 .project .threece .right .btn button:nth-of-type(1){
@@ -709,25 +713,26 @@ main{
 }
 .project .yoajung .right .content .text01{
     font-weight: bold;
+    width: 100px;
 }
 .project .yoajung .right .content .lang{
     display: flex;
-    gap: 120px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .yoajung .right .content .program{
     display: flex;
-    gap: 81px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .yoajung .right .content .contribution{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .yoajung .right .content .page{
     display: flex;
-    gap: 57px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .yoajung .right .btn button:nth-of-type(1){
@@ -898,25 +903,26 @@ main{
 }
 .project .urlala .right .content .text01{
     font-weight: bold;
+    width: 100px;
 }
 .project .urlala .right .content .lang{
     display: flex;
-    gap: 120px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .urlala .right .content .program{
     display: flex;
-    gap: 81px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .urlala .right .content .contribution{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .urlala .right .content .page{
     display: flex;
-    gap: 57px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .urlala .right .btn button:nth-of-type(1){
@@ -1045,25 +1051,26 @@ main{
 }
 .project .lejore .right .content .text01{
     font-weight: bold;
+    width: 100px;
 }
 .project .lejore .right .content .lang{
     display: flex;
-    gap: 120px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .lejore .right .content .program{
     display: flex;
-    gap: 81px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .lejore .right .content .contribution{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .lejore .right .content .page{
     display: flex;
-    gap: 57px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .lejore .right .btn button:nth-of-type(1){
@@ -1177,25 +1184,26 @@ main{
 }
 .project .josun .right .content .text01{
     font-weight: bold;
+    width: 100px;
 }
 .project .josun .right .content .lang{
     display: flex;
-    gap: 120px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .josun .right .content .program{
     display: flex;
-    gap: 81px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .josun .right .content .contribution{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .josun .right .content .page{
     display: flex;
-    gap: 57px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .josun .right .btn button:nth-of-type(1){
@@ -1291,25 +1299,26 @@ main{
 }
 .project .tamber .right .content .text01{
     font-weight: bold;
+    width: 100px;
 }
 .project .tamber .right .content .lang{
     display: flex;
-    gap: 120px;
+    gap: 60;
     margin-bottom: 20px;
 }
 .project .tamber .right .content .program{
     display: flex;
-    gap: 81px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .tamber .right .content .contribution{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .tamber .right .content .page{
     display: flex;
-    gap: 57px;
+    gap: 60px;
     margin-bottom: 20px;
 }
 .project .tamber .right .btn button:nth-of-type(1){
@@ -1465,6 +1474,14 @@ main{
     display: flex;
     align-items: center;
     gap: 15px;
+}
+.contact .in_box .up .text .git button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+.contact .in_box .up .text .git button:hover{
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
 }
 .contact .in_box .down{
     width: 100%;
@@ -2380,6 +2397,9 @@ main{
         width: 35px;
         height: 35px;
         object-fit: cover;
+    }
+    .contact .in_box .up .text .git button{
+        font-size: 16px;
     }
     .contact .in_box .down button:nth-of-type(1){
         width: 160px;
