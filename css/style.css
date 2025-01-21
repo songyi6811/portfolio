@@ -274,6 +274,9 @@ main{
     width: 100%;
     text-align: center;
 }
+.project .knotted .left p:nth-of-type(2){
+    display: none;
+}
 .project .knotted .left img:nth-of-type(1){
     height: 690px;
 }
@@ -390,6 +393,9 @@ main{
 .project .knotted .left .mockup .image_box img:nth-of-type(3){
     display: none;
 }
+.project .knotted .left .mockup .image_box img:nth-of-type(4){
+    display: none;
+}
 .project .knotted .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
 }
@@ -429,6 +435,9 @@ main{
 .project .knotted .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
    display: none;
 }
+.project .knotted .left .mockup .mockup_mobile .image_mobile img:nth-of-type(4){
+    display: none;
+}
 .project .knotted .left .mockup .mockup_mobile .image_mobile:hover img {
     animation: mobileSlide 3s 1 linear forwards;
 }
@@ -453,6 +462,9 @@ main{
 .project .threece .left p{
     width: 100%;
     text-align: center;
+}
+.project .threece .left p:nth-of-type(2){
+    display: none;
 }
 .project .threece .left img:nth-of-type(1){
     height: 690px;
@@ -570,6 +582,9 @@ main{
 .project .threece .left .mockup .image_box img:nth-of-type(3){
     display: none;
 }
+.project .threece .left .mockup .image_box img:nth-of-type(4){
+    display: none;
+}
 .project .threece .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
 }
@@ -609,6 +624,9 @@ main{
 .project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
    display: none;
 }
+.project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(4){
+    display: none;
+}
 .project .threece .left .mockup .mockup_mobile .image_mobile:hover img {
     animation: mobileSlide 3s 1 linear forwards;
 }
@@ -633,6 +651,9 @@ main{
 .project .yoajung .left p{
     width: 100%;
     text-align: center;
+}
+.project .yoajung .left p:nth-of-type(2){
+    display: none;
 }
 .project .yoajung .left img:nth-of-type(1){
     height: 690px;
@@ -750,6 +771,9 @@ main{
 .project .yoajung .left .mockup .image_box img:nth-of-type(3){
     display: none;
 }
+.project .yoajung .left .mockup .image_box img:nth-of-type(4){
+    display: none;
+}
 .project .yoajung .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
 }
@@ -789,6 +813,9 @@ main{
 .project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
    display: none;
 }
+.project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(4){
+    display: none;
+}
 .project .yoajung .left .mockup .mockup_mobile .image_mobile:hover img {
     animation: mobileSlide 3s 1 linear forwards;
 }
@@ -813,6 +840,9 @@ main{
 .project .urlala .left p{
     width: 100%;
     text-align: center;
+}
+.project .urlala .left p:nth-of-type(2){
+    display: none;
 }
 .project .urlala .left img:nth-of-type(1){
     height: 690px;
@@ -930,6 +960,9 @@ main{
 .project .urlala .left .mockup .image_box img:nth-of-type(3){
     display: none;
 }
+.project .urlala .left .mockup .image_box img:nth-of-type(4){
+    display: none;
+}
 .project .urlala .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
 }
@@ -954,6 +987,9 @@ main{
 .project .lejore .left p{
     width: 100%;
     text-align: center;
+}
+.project .lejore .left p:nth-of-type(2){
+    display: none;
 }
 .project .lejore .left img:nth-of-type(1){
     height: 690px;
@@ -1056,6 +1092,9 @@ main{
 .project .lejore .left .mockup .image_box img:nth-of-type(3){
     display: none;
 }
+.project .lejore .left .mockup .image_box img:nth-of-type(4){
+    display: none;
+}
 .project .lejore .left .mockup .image_box:hover img {
     animation: pcSlide 5s 1 linear forwards;
 }
@@ -1080,6 +1119,9 @@ main{
 .project .josun .left p{
     width: 100%;
     text-align: center;
+}
+.project .josun .left p:nth-of-type(2){
+    display: none;
 }
 .project .josun .left img:nth-of-type(1){
     height: 690px;
@@ -1180,6 +1222,9 @@ main{
     display: none;
 }
 .project .josun .left .mockup .image_box img:nth-of-type(3){
+    display: none;
+}
+.project .josun .left .mockup .image_box img:nth-of-type(4){
     display: none;
 }
 .project .josun .left .mockup .image_box:hover img {
@@ -2212,6 +2257,9 @@ main{
         margin-left: 30px;
         margin-right: 30px;
     }
+    .project .tamber .right .sub_title{
+        margin-bottom: 40px;
+    }
     .project .tamber .right .sub_title .text h3{
         font-size: 50px;
         margin-bottom: 10px;
@@ -2318,6 +2366,7 @@ main{
         border-radius: 15px;
         font-size: 12px;
     }
+    
 } /* media 1100px */
 
 @media screen and (max-width:920px){
@@ -2400,6 +2449,12 @@ main{
     /* knotted */
     .project .knotted{
         flex-direction: column;
+    }
+    .project .knotted .left p:nth-of-type(1){
+        display: none;
+    }
+    .project .knotted .left p:nth-of-type(2){
+        display: block;
     }
     .project .knotted .right .sub_title .text h3{
         font-size: 35px;
@@ -2500,6 +2555,12 @@ main{
     /* threece */
     .project .threece{
         flex-direction: column;
+    }
+    .project .threece .left p:nth-of-type(1){
+        display: none;
+    }
+    .project .threece .left p:nth-of-type(2){
+        display: block;
     }
     .project .threece .right .sub_title .text h3{
         font-size: 35px;
@@ -2603,6 +2664,12 @@ main{
     /* yoajung */
     .project .yoajung{
         flex-direction: column;
+    }
+    .project .yoajung .left p:nth-of-type(1){
+        display: none;
+    }
+    .project .yoajung .left p:nth-of-type(2){
+        display: block;
     }
     .project .yoajung .right .sub_title .text h3{
         font-size: 35px;
@@ -2708,6 +2775,12 @@ main{
     .project .urlala{
         flex-direction: column;
     }
+    .project .urlala .left p:nth-of-type(1){
+        display: none;
+    }
+    .project .urlala .left p:nth-of-type(2){
+        display: block;
+    }
     .project .urlala .right .sub_title .text h3{
         font-size: 35px;
     }
@@ -2770,6 +2843,12 @@ main{
     /* lejore */
     .project .lejore{
         flex-direction: column;
+    }
+    .project .lejore .left p:nth-of-type(1){
+        display: none;
+    }
+    .project .lejore .left p:nth-of-type(2){
+        display: block;
     }
     .project .lejore .right .sub_title .text h3{
         font-size: 35px;
@@ -2836,6 +2915,12 @@ main{
     /* josun */
     .project .josun{
         flex-direction: column;
+    }
+    .project .josun .left p:nth-of-type(1){
+        display: none;
+    }
+    .project .josun .left p:nth-of-type(2){
+        display: block;
     }
     .project .josun .right .sub_title .text h3{
         font-size: 35px;
@@ -2925,6 +3010,7 @@ main{
         display: none;
     }
     .project .tamber .right .content{
+        font-size: 14px;
         width: 100%;
         text-align: center;
     }
@@ -2942,6 +3028,10 @@ main{
     .graphic .title{
         font-size: 40px;
     }
+    .graphic .inner a{
+        width: 250px;
+        height: 250px;
+    }
     /* contact */
     .contact .in_box .title{
         font-size: 40px;
@@ -2953,5 +3043,561 @@ main{
 }/* media 920px */
 
 @media screen and (max-width:414px){
+    .main_visual .text_wrap .title p{
+        font-size: 14px;
+    }
+    .btn-shine{
+        font-size: 50px;
+    }
+    .main_visual .text_wrap .name{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .inner>h2{
+        font-size: 28px;
+    }
+    .about .inner{
+        margin-left: 20px;
+        padding: 50px 0;
+    }
+    .about .wrap .left{
+        flex-direction: column;
+        margin: 0 auto;
+        position: relative;
+    }
+    .about .wrap .left::before{
+        content: '';
+        width: 300px;
+        height: 1px;
+        background-color: #888;
+        display: block;
+        z-index: 2;
+        position: absolute;
+        bottom: -30px;
+        left: -30px;
+    }
+    .about .wrap .left img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .about .wrap .left .infor{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .about .wrap .left .infor h3{
+        margin-bottom: 20px;
+    }
+    .about .wrap .left .infor .name{
+        margin-bottom: 10px;
+        gap: 25px;
+    }
+    .about .wrap .left .infor .birth{
+        margin-bottom: 10px;
+        gap: 32px;
+    }
+    .about .wrap .right .intro{
+        display: none;
+    }
+    .about .wrap .left .infor .Phone{
+        margin-bottom: 10px;
+    }
+    .about .wrap .left .infor .Email{
+        margin-bottom: 0;
+        gap: 28px;
+    }
+    .about .wrap .right{
+        margin-left: 10px;
+    }
+    .about .wrap .right .Education .text:nth-of-type(1){
+        gap: 39px;
+    }
+    .about .wrap .right .Education .text:nth-of-type(2){
+        gap: 36px;
+    }
+    .about .wrap .right .Education .text:nth-of-type(3){
+        gap: 34px;
+    }
+    .about .wrap .right .Education .text:nth-of-type(4){
+        gap: 12px;
+    }
+    .about .wrap .right .Skills img{
+        width: 30px;
+        height: 30px;
+        margin-right: 3px;
+    }
+
+    /* knotted */
+    .project .knotted{
+        gap: 0;
+        margin-bottom: 150px;
+    }
+    .project .knotted .left p:nth-of-type(2){
+        margin-bottom: -70px;
+    }
+    .project .knotted .left .mockup{
+        width: 338px;
+        height: 450px;
+        background: url(../img/노티드pc.png) center center / 340px no-repeat;
+    }
+    .project .knotted .left .mockup .image_box {
+        width: 322px;
+        height: 180px;
+        position: absolute;
+        top: 91px;
+        left: 8px;
+    }
+    .project .knotted .left .mockup .mockup_mobile {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+        width: 75px;
+        height: 154px;
+        background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    }
+    .project .knotted .left .mockup .mockup_mobile .image_mobile {
+        width: 67px;
+        height: 145px;
+        position: absolute;
+        top: 5px;
+        left: 4px;
+        border-radius: 8px;
+    }
+    .project .knotted .left .mockup .image_box img:nth-of-type(3){
+        display: none;
+    }
+    .project .knotted .left .mockup .image_box img:nth-of-type(4){
+        display: block;
+        height: 1210px;
+    }
+    .project .knotted .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
+        display: none;
+    }
+    .project .knotted .left .mockup .mockup_mobile .image_mobile img:nth-of-type(4){
+        display: block;
+        height: 560px;
+    }
+    .project .knotted .left .mockup::before{
+        bottom: 60px;
+    }
+    .project .knotted .right .content{
+        margin-left: 25px;
+    }
+    .project .knotted .right .content .lang{
+        gap: 75px;
+        margin-bottom: 15px;
+    }
+    .project .knotted .right .content .program{
+        margin-bottom: 15px;
+        gap: 50px;
+    }
+    .project .knotted .right .content .contribution{
+        gap: 62px;
+        margin-bottom: 15px;
+    }
+    .project .knotted .right .content .page{
+        gap: 34px;
+    }
+    .project .knotted .right .btn{
+        display: flex;
+        z-index: -1;
+    }
+    /* threece */
+    .project .threece{
+        gap: 0;
+        margin-bottom: 150px;
+    }
+    .project .threece .left p:nth-of-type(2){
+        margin-bottom: -70px;
+    }
+    .project .threece .left .mockup{
+        width: 340px;
+        height: 450px;
+        background: url(../img/노티드pc.png) center center / 340px no-repeat;
+    }
+    .project .threece .left .mockup .image_box {
+        width: 326px;
+        height: 180px;
+        position: absolute;
+        top: 91px;
+        left: 5px;
+    }
+    .project .threece .left .mockup .mockup_mobile {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+        width: 75px;
+        height: 154px;
+        background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    }
+    .project .threece .left .mockup .mockup_mobile .image_mobile {
+        width: 67px;
+        height: 145px;
+        position: absolute;
+        top: 5px;
+        left: 4px;
+        border-radius: 8px;
+    }
+    .project .threece .left .mockup .image_box img:nth-of-type(3){
+        display: none;
+    }
+    .project .threece .left .mockup .image_box img:nth-of-type(4){
+        display: block;
+        height: 1210px;
+    }
+    .project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
+        display: none;
+    }
+    .project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(4){
+        display: block;
+        height: 560px;
+    }
+    .project .threece .left .mockup::before{
+        bottom: 60px;
+    }
+    .project .threece .right .content{
+        margin-left: 25px;
+    }
+    .project .threece .right .content .lang{
+        gap: 75px;
+        margin-bottom: 15px;
+    }
+    .project .threece .right .content .program{
+        margin-bottom: 15px;
+        gap: 50px;
+    }
+    .project .threece .right .content .contribution{
+        gap: 62px;
+        margin-bottom: 15px;
+    }
+    .project .threece .right .content .page{
+        gap: 34px;
+    }
+    .project .threece .right .btn{
+        display: flex;
+        z-index: -1;
+    }
+    /* yoajung */
+    .project .yoajung{
+        gap: 0;
+        margin-bottom: 150px;
+    }
+    .project .yoajung .left p:nth-of-type(2){
+        margin-bottom: -70px;
+    }
+    .project .yoajung .left .mockup{
+        width: 340px;
+        height: 450px;
+        background: url(../img/노티드pc.png) center center / 340px no-repeat;
+    }
+    .project .yoajung .left .mockup .image_box {
+        width: 326px;
+        height: 180px;
+        position: absolute;
+        top: 91px;
+        left: 5px;
+    }
+    .project .yoajung .left .mockup .mockup_mobile {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+        width: 75px;
+        height: 154px;
+        background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    }
+    .project .yoajung .left .mockup .mockup_mobile .image_mobile {
+        width: 67px;
+        height: 145px;
+        position: absolute;
+        top: 5px;
+        left: 4px;
+        border-radius: 8px;
+    }
+    .project .yoajung .left .mockup .image_box img:nth-of-type(3){
+        display: none;
+    }
+    .project .yoajung .left .mockup .image_box img:nth-of-type(4){
+        display: block;
+        height: 977px;
+    }
+    .project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
+        display: none;
+    }
+    .project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(4){
+        display: block;
+        height: 678px;
+    }
+    .project .yoajung .left .mockup::before{
+        bottom: 60px;
+    }
+    .project .yoajung .right .content{
+        margin-left: 25px;
+    }
+    .project .yoajung .right .content .lang{
+        gap: 75px;
+        margin-bottom: 15px;
+    }
+    .project .yoajung .right .content .program{
+        margin-bottom: 15px;
+        gap: 50px;
+    }
+    .project .yoajung .right .content .contribution{
+        gap: 62px;
+        margin-bottom: 15px;
+    }
+    .project .yoajung .right .content .page{
+        gap: 34px;
+    }
+    .project .yoajung .right .btn{
+        display: flex;
+        z-index: -1;
+    }
+    /* urlala */
+    .project .urlala{
+        gap: 0;
+        margin-bottom: 150px;
+    }
+    .project .urlala .left p:nth-of-type(2){
+        margin-bottom: -70px;
+    }
+    .project .urlala .left .mockup{
+        width: 340px;
+        height: 450px;
+        background: url(../img/노티드pc.png) center center / 340px no-repeat;
+    }
+    .project .urlala .left .mockup .image_box {
+        width: 326px;
+        height: 180px;
+        position: absolute;
+        top: 91px;
+        left: 5px;
+    }
+    .project .urlala .left .mockup .mockup_mobile {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+        width: 75px;
+        height: 154px;
+        background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    }
+    .project .urlala .left .mockup .mockup_mobile .image_mobile {
+        width: 67px;
+        height: 145px;
+        position: absolute;
+        top: 5px;
+        left: 4px;
+        border-radius: 8px;
+    }
+    .project .urlala .left .mockup .image_box img:nth-of-type(3){
+        display: none;
+    }
+    .project .urlala .left .mockup .image_box img:nth-of-type(4){
+        display: block;
+        height: 1210px;
+    }
+    .project .urlala .left .mockup::before{
+        bottom: 60px;
+    }
+    .project .urlala .right .content{
+        margin-left: 25px;
+    }
+    .project .urlala .right .content .lang{
+        gap: 75px;
+        margin-bottom: 15px;
+    }
+    .project .urlala .right .content .program{
+        margin-bottom: 15px;
+        gap: 50px;
+    }
+    .project .urlala .right .content .contribution{
+        gap: 62px;
+        margin-bottom: 15px;
+    }
+    .project .urlala .right .content .page{
+        gap: 34px;
+    }
+    .project .urlala .right .btn{
+        display: flex;
+        z-index: -1;
+    }
+    /* lejore */
+    .project .lejore{
+        gap: 0;
+        margin-bottom: 150px;
+    }
+    .project .lejore .left p:nth-of-type(2){
+        margin-bottom: -70px;
+    }
+    .project .lejore .left .mockup{
+        width: 340px;
+        height: 450px;
+        background: url(../img/노티드pc.png) center center / 340px no-repeat;
+    }
+    .project .lejore .left .mockup .image_box {
+        width: 326px;
+        height: 180px;
+        position: absolute;
+        top: 91px;
+        left: 5px;
+    }
+    .project .lejore .left .mockup .mockup_mobile {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+        width: 75px;
+        height: 154px;
+        background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    }
+    .project .lejore .left .mockup .mockup_mobile .image_mobile {
+        width: 67px;
+        height: 145px;
+        position: absolute;
+        top: 5px;
+        left: 4px;
+        border-radius: 8px;
+    }
+    .project .lejore .left .mockup .image_box img:nth-of-type(3){
+        display: none;
+    }
+    .project .lejore .left .mockup .image_box img:nth-of-type(4){
+        display: block;
+        height: 1210px;
+    }
+    .project .lejore .left .mockup::before{
+        bottom: 60px;
+    }
+    .project .lejore .right .content{
+        margin-left: 25px;
+    }
+    .project .lejore .right .content .lang{
+        gap: 75px;
+        margin-bottom: 15px;
+    }
+    .project .lejore .right .content .program{
+        margin-bottom: 15px;
+        gap: 50px;
+    }
+    .project .lejore .right .content .contribution{
+        gap: 62px;
+        margin-bottom: 15px;
+    }
+    .project .lejore .right .content .page{
+        gap: 34px;
+    }
+    .project .lejore .right .btn{
+        z-index: -1;
+    }
+    /* josun */
+    .project .josun{
+        gap: 0;
+        margin-bottom: 150px;
+    }
+    .project .josun .left p:nth-of-type(2){
+        margin-bottom: -70px;
+    }
+    .project .josun .left .mockup{
+        width: 340px;
+        height: 450px;
+        background: url(../img/노티드pc.png) center center / 340px no-repeat;
+    }
+    .project .josun .left .mockup .image_box {
+        width: 326px;
+        height: 180px;
+        position: absolute;
+        top: 91px;
+        left: 5px;
+    }
+    .project .josun .left .mockup .mockup_mobile {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+        width: 75px;
+        height: 154px;
+        background: url(../img/모바일목업.png) center center / 100% no-repeat;
+    }
+    .project .josun .left .mockup .mockup_mobile .image_mobile {
+        width: 67px;
+        height: 145px;
+        position: absolute;
+        top: 5px;
+        left: 4px;
+        border-radius: 8px;
+    }
+    .project .josun .left .mockup .image_box img:nth-of-type(3){
+        display: none;
+    }
+    .project .josun .left .mockup .image_box img:nth-of-type(4){
+        display: block;
+        height: 1210px;
+    }
+    .project .josun .left .mockup::before{
+        bottom: 60px;
+    }
+    .project .josun .right .content{
+        margin-left: 25px;
+    }
+    .project .josun .right .content .lang{
+        gap: 75px;
+        margin-bottom: 15px;
+    }
+    .project .josun .right .content .program{
+        margin-bottom: 15px;
+        gap: 50px;
+    }
+    .project .josun .right .content .contribution{
+        gap: 62px;
+        margin-bottom: 15px;
+    }
+    .project .josun .right .content .page{
+        gap: 34px;
+    }
+    .project .josun .right .btn{
+        z-index: -1;
+    }
+    /* tamber */
+    .project .tamber{
+        margin-bottom: 150px;
+    }
+    .project .tamber .mockup{
+        width: 340px;
+    }
+    .project .tamber .right .content{
+        margin-left: 35px;
+    }
+    .project .tamber .right .content .program{
+        margin-bottom: 15px;
+        gap: 50px;
+    }
+    .project .tamber .right .content .contribution{
+        gap: 62px;
+        margin-bottom: 15px;
+    }
+    .project .tamber .right .content .page{
+        gap: 34px;
+    }
+
+    /* graphic */
+    .graphic .inner a{
+        width: 150px;
+        height: 150px;
+    }
+
+    /* contact */
+    .contact .inner{
+        flex-direction: column;
+        row-gap: 50px;
+        margin-top: 120px;
+    }
+    .contact .in_box .title{
+        font-size: 28px;
+    }
+    .contact .thank{
+        line-height: 0;
+        margin-left: 20px;
+    }
+    .contact .thank .text{
+        font-size: 26px;
+    }
+
 
 }/* media 414px */
