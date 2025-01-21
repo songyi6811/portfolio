@@ -1526,6 +1526,11 @@ main{
         height: 65px;
         font-size: 18px;
     }
+    .project .knotted .right .btn button:nth-of-type(3){
+        width: 200px;
+        height: 65px;
+        font-size: 18px;
+    }
     .project .threece .right .btn button:nth-of-type(1){
         width: 200px;
         height: 65px;
@@ -1750,6 +1755,13 @@ main{
         border-radius: 15px;
         font-size: 16px;
     }
+    .project .knotted .right .btn button:nth-of-type(3){
+        width: 160px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+    
     /* threece */
     .project .threece{
         gap: 50px;
@@ -3216,6 +3228,26 @@ main{
     .project .knotted .right .btn{
         display: flex;
         z-index: -1;
+    }
+    .project .knotted .right .btn button:nth-of-type(1){
+        width: 100px;
+        height: 40px;
+        margin-right: 8px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+    .project .knotted .right .btn button:nth-of-type(2){
+        width: 100px;
+        height: 40px;
+        margin-right: 8px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+    .project .knotted .right .btn button:nth-of-type(3){
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 12px;
     }
     /* threece */
     .project .threece{
