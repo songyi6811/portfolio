@@ -338,23 +338,33 @@ main{
     margin-bottom: 20px;
 }
 .project .knotted .right .btn button:nth-of-type(1){
-    width: 223px;
-    height: 73px;
+    width: 160px;
+    height: 60px;
     font-size: 20px;
     font-weight: bold;
     border: 3px solid #F3CCC5;
     border-radius: 20px;
     background-color: transparent;
-    margin-right: 30px;
+    margin-right: 15px;
 }
 .project .knotted .right .btn button:nth-of-type(2){
-    width: 223px;
-    height: 73px;
+    width: 160px;
+    height: 60px;
     font-size: 20px;
     font-weight: bold;
     border: none;
     border-radius: 20px;
     background-color: #F3CCC5;
+    margin-right: 15px;
+}
+.project .knotted .right .btn button:nth-of-type(3){
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #F3CCC5;
+    border-radius: 20px;
+    background-color: transparent;
 }
 .project .knotted .right .btn button:nth-of-type(1):hover{
     background-color: #cfada8a1;
@@ -363,6 +373,11 @@ main{
 }
 .project .knotted .right .btn button:nth-of-type(2):hover{
     background-color: #cfada8;
+    cursor: url('../img/마우스커서02.png') 2 2, auto;
+    /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
+}
+.project .knotted .right .btn button:nth-of-type(3):hover{
+    background-color: #cfada8a1;
     cursor: url('../img/마우스커서02.png') 2 2, auto;
     /* cursor: url('../img/마우스커서02.png') 2 2, auto; */
 }
