@@ -3243,14 +3243,14 @@ main{
     }
     .project .threece .left .mockup .image_box img:nth-of-type(4){
         display: block;
-        height: 1210px;
+        height: 977px;
     }
     .project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
         display: none;
     }
     .project .threece .left .mockup .mockup_mobile .image_mobile img:nth-of-type(4){
         display: block;
-        height: 560px;
+        height: 678px;
     }
     .project .threece .left .mockup::before{
         bottom: 60px;
@@ -3318,14 +3318,14 @@ main{
     }
     .project .yoajung .left .mockup .image_box img:nth-of-type(4){
         display: block;
-        height: 977px;
+        height: 1148px;
     }
     .project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(3){
         display: none;
     }
     .project .yoajung .left .mockup .mockup_mobile .image_mobile img:nth-of-type(4){
         display: block;
-        height: 678px;
+        height: 576px;
     }
     .project .yoajung .left .mockup::before{
         bottom: 60px;
@@ -3393,7 +3393,7 @@ main{
     }
     .project .urlala .left .mockup .image_box img:nth-of-type(4){
         display: block;
-        height: 1210px;
+        height: 1396px;
     }
     .project .urlala .left .mockup::before{
         bottom: 60px;
@@ -3461,7 +3461,7 @@ main{
     }
     .project .lejore .left .mockup .image_box img:nth-of-type(4){
         display: block;
-        height: 1210px;
+        height: 900px;
     }
     .project .lejore .left .mockup::before{
         bottom: 60px;
@@ -3528,7 +3528,7 @@ main{
     }
     .project .josun .left .mockup .image_box img:nth-of-type(4){
         display: block;
-        height: 1210px;
+        height: 1113px;
     }
     .project .josun .left .mockup::before{
         bottom: 60px;
