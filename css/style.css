@@ -151,6 +151,9 @@ main{
     display: flex;
     gap: 80px;
 }
+.about .wrap .left img{
+    width: 500px;
+}
 .about .wrap .left .infor{
     width: 300px;
     margin-top: 50px;
