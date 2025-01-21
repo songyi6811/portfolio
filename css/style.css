@@ -3070,6 +3070,10 @@ main{
 }/* media 920px */
 
 @media screen and (max-width:414px){
+    main{
+        height: 750px;
+        background: url('../img/메인비지얼-mobile.png');
+    }
     .main_visual .text_wrap .title p{
         font-size: 14px;
     }
